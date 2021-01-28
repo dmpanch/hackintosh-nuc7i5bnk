@@ -2,4 +2,4 @@
 
 OpenCore EFI for Intel NUC 7I5BNK
 
-Doesn't start
+Start, but NVRAM has only 10mb + glitches
