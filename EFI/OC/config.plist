@@ -16,9 +16,9 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-EC-USBX-DESKTOP.aml</string>
+				<string>SSDT-EC-USBX-LAPTOP.aml</string>
 				<key>Path</key>
-				<string>SSDT-EC-USBX-DESKTOP.aml</string>
+				<string>SSDT-EC-USBX-LAPTOP.aml</string>
 				<key>Enabled</key>
 				<true/>
 			</dict>
@@ -66,14 +66,13 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Change _OSI to XOSI
-</string>
+				<string>Replace one byte sequence with another</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
-				<data>X09TSQ==</data>
+				<data>ESIzRA==</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -81,7 +80,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>X09TSQ==</data>
+				<data>RDMiEQ==</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -236,31 +235,6 @@
 			<dict>
 				<key>AAPL,ig-platform-id	</key>
 				<data>AgAmWQ==</data>
-				<key>device-id</key>
-				<data>WSYAAA==</data>
-				<key>framebuffer-con1-enable	</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con1-alldata</key>
-				<data>AQWQAAAIAADHAwAA</data>
-				<key>framebuffer-con2-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con2-alldata	</key>
-				<data>AgQKAAAIAADHAwAA</data>
-				<key>framebuffer-patch-enable	</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-stolenmem	</key>
-				<data>AAAAOQ==</data>
-				<key>framebuffer-fbmem	</key>
-				<data>AAAAAA==</data>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1b,0x0)
-
-</key>
-			<dict>
-				<key>layout-id
-
-</key>
-				<data>AQAAAA==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
